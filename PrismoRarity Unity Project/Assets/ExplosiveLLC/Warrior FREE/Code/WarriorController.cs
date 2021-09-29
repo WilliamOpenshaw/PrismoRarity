@@ -212,6 +212,7 @@ namespace WarriorAnimsFREE
 			SetAnimatorInt("Action", 1);
 			SetAnimatorTrigger(AnimatorTrigger.AttackTrigger);
 			Lock(true, true, true, 0, warriorTiming.TimingLock(warrior, "attack1"));
+			
 		}
 
 		#endregion

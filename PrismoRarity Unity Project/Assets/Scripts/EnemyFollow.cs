@@ -10,6 +10,7 @@ public class EnemyFollow : MonoBehaviour
     void Start()
     {
         enemySpeed = 0.03f;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
     void Update()
     {
