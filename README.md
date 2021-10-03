@@ -12,6 +12,8 @@ Platform: PC (Possibly WebGL, Android, Mac, Linux, and iOS)
 
 Update Posts: Twitter and Instagram
 
+AndreCronje/Rarity Issue Post: https://github.com/andrecronje/rarity/issues/86
+
 
 [Intro]
 
