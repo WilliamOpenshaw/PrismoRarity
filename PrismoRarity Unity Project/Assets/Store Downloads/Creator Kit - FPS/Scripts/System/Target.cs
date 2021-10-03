@@ -54,13 +54,13 @@ public class Target : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.L))
         {
-            Got(5.0f);
+            Got(1.0f);
         }
     }
 
     public void Got(float damage)
     {
-        //Debug.Log("GOT Called");
+        Debug.Log(damage.ToString() + " DAMAGE");
 
         m_CurrentHealth -= damage;
 
@@ -78,7 +78,7 @@ public class Target : MonoBehaviour
     {
         if (projectile.gameObject.CompareTag("Bullet") && player.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Attack1"))
         {
-            Got(5.0f);
+            Got(1.0f);
             //HitPlayer.PlayRandom();
             //Debug.Log("Enemy is Hit");
         }       

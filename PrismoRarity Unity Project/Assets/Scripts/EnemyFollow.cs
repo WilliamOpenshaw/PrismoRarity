@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyFollow : MonoBehaviour
 {
     public Transform player; 
-    public float enemySpeed;     
+    public float enemySpeed;  
+
 
     void Start()
     {
         enemySpeed = 0.03f;
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform; 
+                  
+        
     }
     void Update()
     {

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+
 namespace WarriorAnimsFREE
 {
 	public class WarriorMovementController:SuperStateMachine
@@ -28,6 +29,7 @@ namespace WarriorAnimsFREE
 			
 			// Set currentState to idle on startup.
 			currentState = WarriorState.Idle;
+			
 		}
 
 		#region Updates
