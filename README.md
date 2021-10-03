@@ -2,10 +2,15 @@
 A 3D combat game built upon the Fantom crypto network game Rarity by Andre Cronje
 
 Title: PrsimoRarity
+
 Type: 3D Physics Game
+
 Engine: Unity
+
 Platform: PC (Possibly WebGL, Android, Mac, Linux, and iOS)
+
 Update Posts: Twitter and Instagram
+
 
 PrismoRarity
 
