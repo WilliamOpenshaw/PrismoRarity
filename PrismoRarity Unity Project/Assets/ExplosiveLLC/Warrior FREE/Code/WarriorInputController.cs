@@ -9,13 +9,18 @@ namespace WarriorAnimsFREE
 		[HideInInspector] public float inputHorizontal = 0;
 		[HideInInspector] public float inputVertical = 0;
 
+		//public float velocityMagnitude;
 		public float forwardVelocityMultiple;
 		public float rightVelocityMultiple;
+		//public Rigidbody playerRigidbody;
 
 		public Vector3 moveInput { get { return CameraRelativeInput(inputHorizontal, inputVertical); } }
 
 		private void Update()
 		{
+			//playerRigidbody = gameObject.GetComponent<Rigidbody>();
+			//velocityMagnitude = gameObject.GetComponent<Rigidbody>().velocity.magnitude;
+			//velocityMagnitude = playerRigidbody.velocity.magnitude;
 			Inputs();
 			Toggles();
 		}
@@ -54,7 +59,7 @@ namespace WarriorAnimsFREE
 			Vector3 forward = Camera.main.transform.TransformDirection(Vector3.forward);
 			forward.y = 0;
 			forward = forward.normalized;
-
+			
 			// Right vector relative to the camera always orthogonal to the forward vector.
 			Vector3 right = new Vector3(forward.z, 0, -forward.x);
 			Vector3 relativeVelocity = ((inputHorizontal * right) * rightVelocityMultiple) + ((inputVertical * forward) * forwardVelocityMultiple);

@@ -9,11 +9,12 @@ namespace WarriorAnimsFREE
 		private WarriorController warriorController;
 
 		[Header("Movement")]
+		public Vector3 velocityMagnitude;
 		public float movementAcceleration = 90.0f;
 		public float runSpeed = 6f;
 		private readonly float rotationSpeed = 40f;
 		public float groundFriction = 50f;
-		[HideInInspector] public Vector3 currentVelocity;
+		public Vector3 currentVelocity;
 
 		[Header("Jumping")]
 		public float gravity = 25.0f;
@@ -51,10 +52,12 @@ namespace WarriorAnimsFREE
 		{
 			// Move the player by our velocity every frame.
 			transform.position += currentVelocity * warriorController.superCharacterController.deltaTime;
-
+			//check if character moving assign velocity
+			//velocityMagnitude = new Vector3(forward.velocity, right.velocity, 0);
 			// If alive and is moving, set animator.
 			if (warriorController.canMove) {
-				if (currentVelocity.magnitude > 0 && warriorController.HasMoveInput()) {
+				if (currentVelocity.magnitude != 0 && warriorController.HasMoveInput()) {
+				//if (currentVelocity.magnitude != 0) {	
 					warriorController.isMoving = true;
 					warriorController.SetAnimatorBool("Moving", true);
 					warriorController.SetAnimatorFloat("Velocity", currentVelocity.magnitude);
@@ -65,10 +68,10 @@ namespace WarriorAnimsFREE
 				}
 			}
 
-			RotateTowardsMovementDir();
+			//RotateTowardsMovementDir();
 
 			// Update animator with local movement values.
-			warriorController.SetAnimatorFloat("Velocity", transform.InverseTransformDirection(currentVelocity).z);
+			warriorController.SetAnimatorFloat("Velocity", transform.InverseTransformDirection(currentVelocity).magnitude);
 		}
 
 		#endregion

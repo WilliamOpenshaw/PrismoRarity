@@ -20,8 +20,12 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationBlendTree.Node
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateMachineNode
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -69,39 +73,43 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1566}
+      Script: {instanceID: 1572}
     - Class: 114
-      Script: {instanceID: 1652}
+      Script: {instanceID: 1658}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2310}
     - Class: 114
-      Script: {instanceID: 3666}
+      Script: {instanceID: 3672}
     - Class: 114
-      Script: {instanceID: 3670}
+      Script: {instanceID: 3676}
     - Class: 114
-      Script: {instanceID: 4542}
+      Script: {instanceID: 4548}
     - Class: 114
-      Script: {instanceID: 4930}
+      Script: {instanceID: 4936}
     - Class: 114
-      Script: {instanceID: 5072}
+      Script: {instanceID: 5078}
     - Class: 114
-      Script: {instanceID: 5292}
+      Script: {instanceID: 5298}
     - Class: 114
-      Script: {instanceID: 5712}
+      Script: {instanceID: 5718}
     - Class: 114
-      Script: {instanceID: 5942}
+      Script: {instanceID: 5948}
     - Class: 114
-      Script: {instanceID: 6660}
+      Script: {instanceID: 6666}
     - Class: 114
-      Script: {instanceID: 7120}
+      Script: {instanceID: 7126}
     - Class: 114
-      Script: {instanceID: 7386}
+      Script: {instanceID: 7392}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 134
       Script: {instanceID: 0}
@@ -288,7 +296,7 @@ ScriptsOnlyBuild:
     className: WarriorInputSystemController
   - hash:
       serializedVersion: 2
-      Hash: dcb0fe6d35d69d38eb345f478d8f94d5
+      Hash: 77f1c1b470d2f633d5253987128a6891
     assemblyName: Assembly-CSharp.dll
     namespaceName: WarriorAnimsFREE
     className: WarriorMovementController
@@ -864,7 +872,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: 389d3f7c4fd297bf3b1480cdd24ea286
+      Hash: cc7e8f8bc37d168e5ce41622991e98d8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Target
@@ -1297,4 +1305,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Test Arena.unity
-  playerPath: C:/Users/Ophas/Documents/Unity/Unity Builds/Prismorarity_0.0.2_64-bit/PrismoRarity.exe
+  playerPath: C:/Users/Ophas/Documents/Unity/Unity Builds/Prismorarity_0.0.3_64-bit/PrismoRarity.exe

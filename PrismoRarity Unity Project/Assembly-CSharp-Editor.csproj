@@ -297,21 +297,6 @@
     <Reference Include="unityplastic">
         <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\com.unity.collab-proxy@1.9.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="GitHub.Logging">
-        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="sfw.net">
-        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\GitHub\Editor\sfw.net.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Unity.45">
-        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.UnityShim">
-        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Api.45">
-        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework">
         <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
@@ -725,10 +710,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{b2bcf32a-6992-84f4-9802-5a6c566c2893}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{29ec4f9b-c03d-3b32-a4b5-99a21545b4be}</Project>
-      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
