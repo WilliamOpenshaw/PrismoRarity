@@ -29,32 +29,57 @@ When these features are stable, local summoner party play will be developed, and
 v0.1 Simple Arena Demo
 
  Release simple 3d melee combat playable concept of an arena
+ 
  Players ability score stats are assigned from Rarity summoner ability score stats
+ 
  Add 1 ranged weapon and its effect on enemies
+ 
  Add 1 projectile magic spell and its effect on enemies
+ 
  Implement combat-related Rarity Summoners' skills and their implications in-game
+ 
  Implement combat-related Rarity Summoners' feats and their implications in-game
+ 
+ 
 v0.2 World Design I and Monster Populations
 
  Scale Monster Difficulty to player recommended Challenge Level
+ 
  Create the beginning of an open world space inhabited by Monsters
+ 
  Dynamic Monster Populations and conflicts
+ 
  3 More Melee Weapons
+ 
  3 More Ranged Weapons
+ 
  3 More Spells
+ 
  Save System
+ 
+ 
 v0.3 Non-Combat I
 
- 1. High Charisma can make someone help/follow you temporarily,
+ 1. High Charisma can make someone help/follow you temporarily
+  
  2. Sleight of Hand contributes to success of pickpocketing
+ 
  3. Stealth will increase chances of not being spotted
+ 
  4. What you are able to notice depends on your Perception
+
+
 v0.4 Monster Experience
 
  Monsters gain little amounts of random experience each day the longer they are alive
+ 
  Monsters gain experience from killing others
+ 
  Experience randomly increases the Health, AC, Perception, Stealth, and Damage of Monsters
- Simple Implementation of Increased difficulty in Monster attack and evade patterns based on experience.
+ 
+ Simple Implementation of Increased difficulty in Monster attack and evade patterns based on experience
+ 
+ 
 v0.5 Human Town
 
 v0.6 BBEG
@@ -86,32 +111,50 @@ I have a full-time job, and will work on this game outside of that time. This is
 [Publishing]
 
 If the features used in the game allow for Mac, Linux, Android, WebGL, and iOS releases, these are feasible with Unity.
+
 PC and WebGL will be the priority.
+
 Releases will be published on GitHub.
+
 
 [GitHub and Latest Release]
 
 GitHub:
+
 https://github.com/WilliamOpenshaw/PrismoRarity
 
 PC x64/x32 Release (Test):
+
 https://github.com/WilliamOpenshaw/PrismoRarity/releases/tag/v0.0.1
 
 [Previous Work]
 
 EscapeForOptions
+
 Video - https://youtu.be/vtzucDqVrPA
+
 Github - https://github.com/WilliamOpenshaw/EscapeForOptions
+
 Latest Release - https://github.com/WilliamOpenshaw/EscapeForOptions/releases
 
+
 [Socials]
+
 Git
+
 https://github.com/WilliamOpenshaw
+
 Twitter
+
 https://twitter.com/WilliamOpenshaw
+
 Instagram
+
 https://www.instagram.com/ophatapioka/
 
 Performance Groups:
+
 https://www.instagram.com/stagefight_tw/?hl=en
+
 https://www.instagram.com/formosaimprovgroup/?hl=en
+
