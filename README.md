@@ -15,15 +15,15 @@ Update Posts: Twitter and Instagram
 
 [Intro]
 
-When I started interacting with Rarity, I immediately fantasized about playing a 3D physics third-person D&D-themed game with support for importing Rarity's summoner stats. PrismoRarity will be one open source project where we can take our characters for a spin against monsters in an open world that grows over time, and where we can witness the impact of our weapons and spells. The next step after a stable combat environment, far down the line, will be a Dungeon Master mode where players can make stories together.
+  When I started interacting with Rarity, I immediately fantasized about playing a 3D physics third-person D&D-themed game with support for importing Rarity's summoner stats. PrismoRarity will be one open source project where we can take our characters for a spin against monsters in an open world that grows over time, and where we can witness the impact of our weapons and spells. The next step after a stable combat environment, far down the line, will be a Dungeon Master mode where players can make stories together.
 
 [Project Mechanics]
 
-The goal is that every ability score, skill, feat, and other readable summoner perameter will be applied to a playercharacter in Prismorarity. The translation of skills, ability scores, and feats into damage and utility effects will be balanced for satisfying real-time combat, and the scaling of enemy difficulty will loosely follow D&D challenge ratings for player level. The player will roam a persistant world which has a balance between different monster populations that the player can influence. In the BBEG update, an opposing force will always rise up against you, sabotaging your alliances and goals.
+  The goal is that every ability score, skill, feat, and other readable summoner perameter will be applied to a playercharacter in Prismorarity. The translation of skills, ability scores, and feats into damage and utility effects will be balanced for satisfying real-time combat, and the scaling of enemy difficulty will loosely follow D&D challenge ratings for player level. The player will roam a persistant world which has a balance between different monster populations that the player can influence. In the BBEG update, an opposing force will always rise up against you, sabotaging your alliances and goals.
 
-After this is implemented, the next steps will be to consider issuing some type of new token if it is recommended for the game to have its own token, such as silver. Or if it is prefered that the game interacts directly with Rarity tokens, even small amounts of Rarity Gold, such as 0.001 or less per monster killed and depending on difficulty. At the moment it is planned that players will interact with Rarity's features as they develop, but that PrismoRarity, at the moment, has no use for an in-game currency, experience, or loot of its own that is seperate from Rarity. The drive of gameplay in PrismoRarity will come predominantly from using Rarity summoner stats, abilities, feats, and gear; and interacting with the dynamics of the monster and human populations in-game.
+  After this is implemented, the next steps will be to consider issuing some type of new token if it is recommended for the game to have its own token, such as silver. Or if it is prefered that the game interacts directly with Rarity tokens, even small amounts of Rarity Gold, such as 0.001 or less per monster killed and depending on difficulty. At the moment it is planned that players will interact with Rarity's features as they develop, but that PrismoRarity, at the moment, has no use for an in-game currency, experience, or loot of its own that is seperate from Rarity. The drive of gameplay in PrismoRarity will come predominantly from using Rarity summoner stats, abilities, feats, and gear; and interacting with the dynamics of the monster and human populations in-game.
 
-When these features are stable, local summoner party play will be developed, and then player-hosted multiplayer. Later, Dungeon Master mode. Dungeon Master mode will, for the time-being, entail that a user, seperate from the 1-4 player users, will have developer controls that I am able to provide to change and spawn things in-game, allowing for simple story-telling support.
+  When these features are stable, local summoner party play will be developed, and then player-hosted multiplayer. Later, Dungeon Master mode. Dungeon Master mode will, for the time-being, entail that a user, seperate from the 1-4 player users, will have developer controls that I am able to provide to change and spawn things in-game, allowing for simple story-telling support.
 
 [Project Roadmap]
 
@@ -31,59 +31,59 @@ When these features are stable, local summoner party play will be developed, and
 
 v0.1 Simple Arena Demo
 
- Release simple 3d melee combat playable concept of an arena
+   Release simple 3d melee combat playable concept of an arena
  
- Players ability score stats are assigned from Rarity summoner ability score stats
+   Players ability score stats are assigned from Rarity summoner ability score stats
  
- Add 1 ranged weapon and its effect on enemies
+   Add 1 ranged weapon and its effect on enemies
  
- Add 1 projectile magic spell and its effect on enemies
+   Add 1 projectile magic spell and its effect on enemies
  
- Implement combat-related Rarity Summoners' skills and their implications in-game
+   Implement combat-related Rarity Summoners' skills and their implications in-game
  
- Implement combat-related Rarity Summoners' feats and their implications in-game
+   Implement combat-related Rarity Summoners' feats and their implications in-game
  
  /////////////////////////////////////////////////////////////////////////////////////
 
 v0.2 World Design I and Monster Populations
 
- Scale Monster Difficulty to player recommended Challenge Level
+   Scale Monster Difficulty to player recommended Challenge Level
  
- Create the beginning of an open world space inhabited by Monsters
+   Create the beginning of an open world space inhabited by Monsters
  
- Dynamic Monster Populations and conflicts
+   Dynamic Monster Populations and conflicts
  
- 3 More Melee Weapons
+   3 More Melee Weapons
  
- 3 More Ranged Weapons
+   3 More Ranged Weapons
  
- 3 More Spells
+   3 More Spells
  
- Save System
+   Save System
  
  /////////////////////////////////////////////////////////////////////////////////////
 
 v0.3 Non-Combat I
 
- 1. High Charisma can make someone help/follow you temporarily
+   1. High Charisma can make someone help/follow you temporarily
   
- 2. Sleight of Hand contributes to success of pickpocketing
+   2. Sleight of Hand contributes to success of pickpocketing
  
- 3. Stealth will increase chances of not being spotted
+   3. Stealth will increase chances of not being spotted
  
- 4. What you are able to notice depends on your Perception
+   4. What you are able to notice depends on your Perception
 
 /////////////////////////////////////////////////////////////////////////////////////
 
 v0.4 Monster Experience
 
- Monsters gain little amounts of random experience each day the longer they are alive
+   Monsters gain little amounts of random experience each day the longer they are alive
  
- Monsters gain experience from killing others
+   Monsters gain experience from killing others
  
- Experience randomly increases the Health, AC, Perception, Stealth, and Damage of Monsters
+   Experience randomly increases the Health, AC, Perception, Stealth, and Damage of Monsters
  
- Simple Implementation of Increased difficulty in Monster attack and evade patterns based on experience
+   Simple Implementation of Increased difficulty in Monster attack and evade patterns based on experience
  
  /////////////////////////////////////////////////////////////////////////////////////
  
@@ -115,57 +115,57 @@ v1.5 Diplomacy
 
 [Development]
 
-I have a full-time job, and will work on this game outside of that time. 
+  I have a full-time job, and will work on this game outside of that time. 
 
-This is an open-source project and any contributions or modding is very welcome.
+  This is an open-source project and any contributions or modding is very welcome.
 
 [Publishing]
 
-If the features used in the game allow for Mac, Linux, Android, WebGL, and iOS releases, these are feasible with Unity.
+  If the features used in the game allow for Mac, Linux, Android, WebGL, and iOS releases, these are feasible with Unity.
 
-PC and WebGL will be the priority.
+  PC and WebGL will be the priority.
 
-Releases will be published on GitHub.
+  Releases will be published on GitHub.
 
 
 [GitHub and Latest Release]
 
-GitHub:
+  GitHub:
 
-https://github.com/WilliamOpenshaw/PrismoRarity
+    https://github.com/WilliamOpenshaw/PrismoRarity
 
-PC x64/x32 Release (Test):
+  PC x64/x32 Release (Test):
 
-https://github.com/WilliamOpenshaw/PrismoRarity/releases/tag/v0.0.1
+    https://github.com/WilliamOpenshaw/PrismoRarity/releases/tag/v0.0.1
 
 [Previous Work]
 
-EscapeForOptions
+  EscapeForOptions
 
-Video - https://youtu.be/vtzucDqVrPA
+    Video - https://youtu.be/vtzucDqVrPA
 
-Github - https://github.com/WilliamOpenshaw/EscapeForOptions
+    Github - https://github.com/WilliamOpenshaw/EscapeForOptions
 
-Latest Release - https://github.com/WilliamOpenshaw/EscapeForOptions/releases
+    Latest Release - https://github.com/WilliamOpenshaw/EscapeForOptions/releases
 
 
 [Socials]
 
-Git
+  Git
 
-https://github.com/WilliamOpenshaw
+    https://github.com/WilliamOpenshaw
 
-Twitter
+  Twitter
 
-https://twitter.com/WilliamOpenshaw
+    https://twitter.com/WilliamOpenshaw
 
-Instagram
+  Instagram
 
-https://www.instagram.com/ophatapioka/
+    https://www.instagram.com/ophatapioka/
 
-Performance Groups:
+  Performance Groups:
 
-https://www.instagram.com/stagefight_tw/?hl=en
+    https://www.instagram.com/stagefight_tw/?hl=en
 
-https://www.instagram.com/formosaimprovgroup/?hl=en
+    https://www.instagram.com/formosaimprovgroup/?hl=en
 
