@@ -12,10 +12,6 @@ Platform: PC (Possibly WebGL, Android, Mac, Linux, and iOS)
 Update Posts: Twitter and Instagram
 
 
-
-
-PrismoRarity
-
 [Intro]
 
 When I started interacting with Rarity, I immediately fantasized about playing a 3D physics third-person D&D-themed game with support for importing Rarity's summoner stats. PrismoRarity will be one open source project where we can take our characters for a spin against monsters in an open world that grows over time, and where we can witness the impact of our weapons and spells. The next step after a stable combat environment, far down the line, will be a Dungeon Master mode where players can make stories together.
