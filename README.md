@@ -26,6 +26,8 @@ When these features are stable, local summoner party play will be developed, and
 
 [Project Roadmap]
 
+/////////////////////////////////////////////////////////////////////////////////////
+
 v0.1 Simple Arena Demo
 
  Release simple 3d melee combat playable concept of an arena
@@ -40,7 +42,8 @@ v0.1 Simple Arena Demo
  
  Implement combat-related Rarity Summoners' feats and their implications in-game
  
- 
+ /////////////////////////////////////////////////////////////////////////////////////
+
 v0.2 World Design I and Monster Populations
 
  Scale Monster Difficulty to player recommended Challenge Level
@@ -57,7 +60,8 @@ v0.2 World Design I and Monster Populations
  
  Save System
  
- 
+ /////////////////////////////////////////////////////////////////////////////////////
+
 v0.3 Non-Combat I
 
  1. High Charisma can make someone help/follow you temporarily
@@ -68,6 +72,7 @@ v0.3 Non-Combat I
  
  4. What you are able to notice depends on your Perception
 
+/////////////////////////////////////////////////////////////////////////////////////
 
 v0.4 Monster Experience
 
@@ -79,6 +84,7 @@ v0.4 Monster Experience
  
  Simple Implementation of Increased difficulty in Monster attack and evade patterns based on experience
  
+ /////////////////////////////////////////////////////////////////////////////////////
  
 v0.5 Human Town
 
@@ -102,11 +108,15 @@ v1.4 Elf Town and Dwarf Town
 
 v1.5 Diplomacy
 
+/////////////////////////////////////////////////////////////////////////////////////
+
 ...RoadMap Updates will be posted here...
 
 [Development]
 
-I have a full-time job, and will work on this game outside of that time. This is an open-source project and any contributions or modding is very welcome.
+I have a full-time job, and will work on this game outside of that time. 
+
+This is an open-source project and any contributions or modding is very welcome.
 
 [Publishing]
 
