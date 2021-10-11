@@ -36,20 +36,58 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.RPC.Reactive.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.BlockchainProcessing.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Buffers.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Util.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Quorum.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Common.Logging.Core.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.ValueTuple.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.HdWallet.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\NBitcoin.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Geth.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Signer.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.RpcClient.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Reactive.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Hex.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.IpcClient.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\BouncyCastle.Crypto.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.StandardTokenEIP20.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Accounts.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Parity.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Unity.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Web3.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.Client.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.RPC.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Model.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.WebSocketClient.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.RLP.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Contracts.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Threading.Tasks.Extensions.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.ABI.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.KeyStore.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Besu.dll" />
+  </ItemGroup>
+  <ItemGroup>
      <Compile Include="Assets\Scripts\EnemySpawn.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Effects\TextAmmoDisplay.cs" />
-     <Compile Include="Assets\ExplosiveLLC\Demo Elements\Code\GUIControls.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\Demo Elements\Code\GUIControls.cs" />
+     <Compile Include="Assets\GetLatestBlockCoroutine.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\UI\MinimapUI.cs" />
-     <Compile Include="Assets\ExplosiveLLC\Warrior FREE\Code\AnimatorParentMove.cs" />
+     <Compile Include="Assets\EtherTransferCoroutinesUnityWebRequest.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\Warrior FREE\Code\AnimatorParentMove.cs" />
+     <Compile Include="Assets\TokenDeployAndSendCoroutinesUnityWebRequest.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Effects\LiquidContainer.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperStateMachine.cs" />
-     <Compile Include="Assets\ExplosiveLLC\Warrior FREE\Code\WarriorInputSystemController.cs" />
-     <Compile Include="Assets\ExplosiveLLC\Warrior FREE\Code\WarriorMovementController.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Scripts\SimpleStateMachine.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperStateMachine.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\Warrior FREE\Code\WarriorInputSystemController.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\Warrior FREE\Code\WarriorMovementController.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\Scripts\SimpleStateMachine.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\LevelLayout\LevelRoomGroup.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\System\PoolSystem.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Math3d.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperMath.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Math3d.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperMath.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Audio\UIAudioPlayer.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\TriggerActionsSystem\TargetChecker.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Minimap\MinimapElement.cs" />
@@ -57,12 +95,13 @@
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\KeyLockSystem\Key.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Effects\LiquidAmmoDisplay.cs" />
      <Compile Include="Assets\Store Downloads\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\PlayerMovement.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Scripts\PlayerInputController.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\Scripts\PlayerInputController.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Audio\RandomPlayer.cs" />
      <Compile Include="Assets\Scripts\PlayerRespawnIfFall.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\TriggerActionsSystem\GameAction.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\TriggerActionsSystem\MovingAction.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\LevelLayout\LevelRoom.cs" />
+     <Compile Include="Assets\Scripts\ExampleTestReadPythOrSol.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Effects\ImpactManager.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\System\WeaponAnimationEventHandler.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\System\TargetSpawner.cs" />
@@ -70,13 +109,13 @@
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\UI\RestartLevel.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\System\Weapon.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\System\StartCheckpoint.cs" />
-     <Compile Include="Assets\ExplosiveLLC\Warrior FREE\Code\WarriorController.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Scripts\Gravity.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Scripts\PlayerMachineDebug.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\Warrior FREE\Code\WarriorController.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\Scripts\Gravity.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\Scripts\PlayerMachineDebug.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\System\AmmoBox.cs" />
-     <Compile Include="Assets\ExplosiveLLC\Warrior FREE\Code\WarriorAnimatorEvents.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\Warrior FREE\Code\WarriorAnimatorEvents.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\UI\WeaponInfoUI.cs" />
-     <Compile Include="Assets\ExplosiveLLC\Warrior FREE\Code\WarriorInputController.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\Warrior FREE\Code\WarriorInputController.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Helpers.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\System\Target.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\GradientTexture.cs" />
@@ -84,36 +123,40 @@
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Minimap\MinimapSystem.cs" />
      <Compile Include="Assets\Store Downloads\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\MouseLook.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Effects\CameraShaker.cs" />
-     <Compile Include="Assets\ExplosiveLLC\Warrior FREE\Code\WarriorTiming.cs" />
-     <Compile Include="Assets\ExplosiveLLC\Warrior FREE\Code\IKHands.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Scripts\PlayerMachine.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\Warrior FREE\Code\WarriorTiming.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\Warrior FREE\Code\IKHands.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\Scripts\PlayerMachine.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\System\Projectile.cs" />
-     <Compile Include="Assets\ExplosiveLLC\Demo Elements\Code\CameraController.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperCollisionType.cs" />
+     <Compile Include="Assets\GetLatestBlockVanillaNethereum.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\Demo Elements\Code\CameraController.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperCollisionType.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\KeyLockSystem\Lock.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\TriggerActionsSystem\EnableObjectAction.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\BSPTree.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\BSPTree.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Audio\WorldAudioPool.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\KeyLockSystem\Keychain.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\UI\GameSystemInfo.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperCollider.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperCollider.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\TriggerActionsSystem\DissolveAction.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\UI\FullscreenMap.cs" />
-     <Compile Include="Assets\ExplosiveLLC\Warrior FREE\Code\WarriorData.cs" />
+     <Compile Include="Assets\ChangeTextInWebGL.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\Warrior FREE\Code\WarriorData.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\GameDatabase.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\Scripts\PlayerCamera.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\DebugDraw.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\Scripts\PlayerCamera.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\SuperCharacterController\DebugDraw.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\System\Controller.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\BruteForceMesh.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\BruteForceMesh.cs" />
      <Compile Include="Assets\Scripts\EnemyFollow.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\UI\LevelSelectionUI.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\System\GameSystem.cs" />
-     <Compile Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperCharacterController.cs" />
+     <Compile Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperCharacterController.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\LevelLayout\LevelLayout.cs" />
+     <Compile Include="Assets\DisableInWebGL.cs" />
      <None Include="Assets\Store Downloads\Creator Kit - FPS\Art\Shaders\Acid.shader" />
      <None Include="Assets\Store Downloads\Creator Kit - FPS\Art\Shaders\Brain.shader" />
      <None Include="Assets\Store Downloads\Creator Kit - FPS\Art\Shaders\Fleisch.shader" />
      <None Include="Assets\Store Downloads\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
+     <None Include="Assets\link.xml" />
      <None Include="Assets\Store Downloads\Creator Kit - FPS\Art\Shaders\StandardFleischDisolve.shader" />
      <None Include="Assets\Store Downloads\Polytope Studio Skeleton\Lowpoly Medieval Characters\Sources\Shaders\PT_Medieval_Armors_Shader_PBR.shader" />
      <None Include="Assets\Store Downloads\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader_VS.shader" />
@@ -129,11 +172,12 @@
      <None Include="Assets\Store Downloads\Creator Kit - FPS\Art\Shaders\MapShader.shader" />
      <None Include="Assets\Store Downloads\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader_VS.shader" />
      <None Include="Assets\Store Downloads\Creator Kit - FPS\Art\Font\OFL.txt" />
+     <None Include="Assets\RarityCodeDL\rarity-integration-main\scripts\test.abi.txt" />
      <None Include="Assets\Store Downloads\Polytope Studio Skeleton\Lowpoly Medieval Characters\Sources\Shaders\PT_Medieval_Armors_Shader_Toon.shader" />
      <None Include="Assets\Store Downloads\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Rock_Shader.shader" />
      <None Include="Assets\Store Downloads\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\VS_indirect.cginc" />
      <None Include="Assets\Store Downloads\Creator Kit - FPS\Art\Shaders\StandardFleisch.shader" />
-     <None Include="Assets\ExplosiveLLC\SuperCharacterController\SuperCharacterController\README.txt" />
+     <None Include="Assets\Store Downloads\ExplosiveLLC\SuperCharacterController\SuperCharacterController\README.txt" />
      <None Include="Assets\Store Downloads\Polytope Studio\Lowpoly Medieval Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader_VS.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -366,8 +410,110 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Nethereum.Contracts">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.RPC">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.RPC.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Model">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Besu">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Besu.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.JsonRpc.RpcClient">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.RpcClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.BlockchainProcessing">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.BlockchainProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Parity">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Parity.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Signer">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Signer.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.StandardTokenEIP20">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.StandardTokenEIP20.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.JsonRpc.Client">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Web3">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Web3.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.JsonRpc.WebSocketClient">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.WebSocketClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\jillejr.newtonsoft.json-for-unity@13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.RLP">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.RLP.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Unity">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Geth">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Geth.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.JsonRpc.IpcClient">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.IpcClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Accounts">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Accounts.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Util">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.KeyStore">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.KeyStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.RPC.Reactive">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.RPC.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.HdWallet">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.HdWallet.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.ABI">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.ABI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="NBitcoin">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\NBitcoin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Buffers.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Quorum">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Quorum.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Hex">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Hex.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.22f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>

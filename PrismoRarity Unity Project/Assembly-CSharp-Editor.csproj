@@ -36,6 +36,41 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.RPC.Reactive.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.BlockchainProcessing.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Buffers.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Util.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Quorum.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Common.Logging.Core.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.ValueTuple.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.HdWallet.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\NBitcoin.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Geth.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Signer.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.RpcClient.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Reactive.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Hex.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.IpcClient.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\BouncyCastle.Crypto.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.StandardTokenEIP20.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Accounts.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Parity.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Unity.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Web3.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.Client.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.RPC.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Model.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.WebSocketClient.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.RLP.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Contracts.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Threading.Tasks.Extensions.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.ABI.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.KeyStore.dll" />
+    <Analyzer Include="C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Besu.dll" />
+  </ItemGroup>
+  <ItemGroup>
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Editor\CreateSceneMenu.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Editor\HideSkybox.cs" />
      <Compile Include="Assets\Store Downloads\Creator Kit - FPS\Scripts\Editor\GradientTextureEditor.cs" />
@@ -276,8 +311,86 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.22f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Nethereum.Contracts">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.RPC">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.RPC.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Model">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Besu">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Besu.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.JsonRpc.RpcClient">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.RpcClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.BlockchainProcessing">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.BlockchainProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Parity">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Parity.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Signer">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Signer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\com.unity.collab-proxy@1.9.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.StandardTokenEIP20">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.StandardTokenEIP20.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.JsonRpc.Client">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Web3">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Web3.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.JsonRpc.WebSocketClient">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.WebSocketClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\jillejr.newtonsoft.json-for-unity@13.0.102\Plugins\Newtonsoft.Json Editor\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.RLP">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.RLP.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Unity">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Geth">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Geth.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.JsonRpc.IpcClient">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.JsonRpc.IpcClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Accounts">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Accounts.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Util">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Util.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\com.unity.collab-proxy@1.9.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.KeyStore">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.KeyStore.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
         <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\com.unity.collab-proxy@1.9.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
@@ -285,14 +398,38 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
         <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    <Reference Include="Nethereum.RPC.Reactive">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.RPC.Reactive.dll</HintPath>
     </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\com.unity.collab-proxy@1.9.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    <Reference Include="Nethereum.HdWallet">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.HdWallet.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.ABI">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.ABI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="NBitcoin">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\NBitcoin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\com.unity.visualscripting@1.6.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Quorum">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Quorum.dll</HintPath>
+    </Reference>
+    <Reference Include="Nethereum.Hex">
+        <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Assets\Plugins\Nethereum.Hex.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>C:\Users\Ophas\Documents\GitHub\PrismoRarity\PrismoRarity Unity Project\Library\PackageCache\com.unity.collab-proxy@1.9.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>

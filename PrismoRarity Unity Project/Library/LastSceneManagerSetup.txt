@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Test Arena.unity
+- path: Assets/Scenes/Nethereum_Test_Panel_Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
